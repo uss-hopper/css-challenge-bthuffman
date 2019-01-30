@@ -10,6 +10,10 @@ html, body {
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "Liberation Mono", Courier, monospace;
+	src: url(/liberation-mono/LiberationMono-Regular.ttf);
+}
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
