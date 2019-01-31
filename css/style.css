@@ -42,7 +42,7 @@ html, body {
 html { display: flex;}
 body { width: 100%;}
 
-.sfooter {
+/* .sfooter {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -51,7 +51,7 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
-
+ */
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *
@@ -62,18 +62,21 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/*Applyin the font  */
 @font-face {
 	font-family: "Liberation Mono";
-	src: url(/liberation-mono/LiberationMono-Regular.ttf);
+	src: url(./LiberationMono-Regular.ttf);
 }
 
 .container {
 	font-family: "Liberation Mono", Courier, monospace;
 }
-
+/*  Welcome to my homepage image*/
 .container > img {
 	margin-left: 50%;
+	margin-top: 85px;
 }
+/*  The header*/
 header > .container {
 	color: #00ff00;
 	background-color: #333333;
@@ -86,25 +89,77 @@ header > .container {
 	padding-right: 30%;
 }
 
-/* This is having no affect. */
+/* This may affect the janeway box, mostly def the computer scientist text. */
 header > .container > em {
 	margin-top: 18px;
 	margin-right: 120px;
 	font-size: 18px;
 }
-
+/*  Janeway box*/
 .instructions-wrapper {
 	display: flex;
 	flex-direction: row;
 	/* 	justify-content: space-between; */
 	width: 100%;
 	/* 	height: 100%; */
-	margin: 10%;
+	margin: 4%;
 	border: solid black;
-	padding: 4em;
+	border-width: thick;
+	padding: 2.5em;
 	margin-left: 20%;
 }
 
+/* Janeway Picture */
 .instructions-wrapper > img {
 	padding-left: 18em;
+	height: 13em;
+}
+
+/* Picard box */
+.about-me {
+	background-color: #0000ff;
+	padding-left: 0%;
+	padding-right: 50%;
+}
+
+.about-me > .container {
+	height: 500px;
+	width: 1875px;
+	display: flex;
+	margin-left: 235px;
+	flex-direction: row;
+	/* 	flex-wrap: wrap; */
+	/* 	text-align: left; */
+	/* 	float: left; */
+	/*   align-content: space-around; */
+	/* 	justify-content: space-between; */
+	/* 	align-items: stretch; */
+}
+
+.about-me > .container > img {
+	margin: 0;
+	width: 400px;
+	height: 333px;
+	/* 	float: left; */
+}
+
+.about-me > .container > h2 {
+	/* 	display: flex; */
+	/* 	justify-content: space-around; */
+	/* 	flex-direction: row; */
+	margin-left: 1%;
+}
+
+.about-me > .container > p {
+	display: flex;
+	/* 	justify-content: space-around; */
+	flex-direction: row;
+	margin-left: 1%;
+}
+
+.about-me > .container > span {
+	display: flex;
+	/* 	justify-content: space-around; */
+	flex-direction: row;
+	margin-left: 1%;
 }
