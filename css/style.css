@@ -11,7 +11,7 @@ html, body {
 }
 
 .container {
-	display: inline-block;
+	/*! display: inline-block; */
 	margin: 0 auto;
 	padding: 0 2rem;
 }
@@ -79,7 +79,7 @@ header {
 	color: #00ff00;
 	background-color: #333333;
 	/* 	display: flex; */
-	font-size: 1.5rem;
+	font-size: 1.rem;
 	/* ! align-items: center; */
 	/* ! flex-direction: row; */
 	/* ! justify-content: space-between; */
@@ -97,7 +97,7 @@ header > .container {
 	/* 	flex-direction: row; */
 	/* 	margin-bottom: 18px; */
 	/* 	margin-right: 9em; */
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	align-items: baseline;
 	/*   align-content: flex-start;  */
 	justify-content: space-between;
@@ -106,10 +106,14 @@ header > .container {
 /*  *********************************************************/
 /*  Welcome to my homepage image*/
 .container > img {
-	display: block;
-	margin-left: 75%;
-	/* 	margin-right: 50%; */
+	/* 	 width: 100% */
+	/* 		height: auto; */
+	/* 	display: flex; */
+	/* 	display: inline; */
+	margin-left: 30%;
+	margin-right: auto;
 	margin-top: 7.5%;
+	margin-bottom: 2%;
 }
 /*  *********************************************************/
 /*  Janeway box*/
@@ -119,11 +123,12 @@ header > .container {
 	/* 	justify-content: space-between; */
 	width: 100%;
 	/* 	height: 100%; */
-	margin: 4%;
+	margin-bottom: 4%;
 	border: 3px solid black;
 	border-width: thick;
 	padding: 2.5em;
-	margin-left: 50%;
+	text
+		/*margin-left: 50%; */
 }
 
 /* Janeway Picture */
@@ -181,15 +186,16 @@ header > .container {
 }
 
 .about-me > .container > p {
-	display: block;
-	/* 	justify-content: space-around; */
-	/* 	flex-direction: column; */
+	/*! display: block; */
+	/*! justify-content: space-around; */
+	/*! flex-direction: column; */
 	margin-left: 1%;
 	height: 5em;
 	/* 	width: 100px; */
 	/* 	justify-content: space-around; */
 	align-items: stretch;
-
+	padding: 1px;
+	padding-bottom: 25px;
 }
 
 .about-me > .container > p > span {
@@ -198,7 +204,99 @@ header > .container {
 	/* 	flex-direction: row; */
 	/* 	margin-left: 1%; */
 	color: #ffe76f;
+	font-style: italic;
 	/* 	justify-content: flex-start; */
 	/* 	align-self: flex-start; */
 	/* 	display:; */
+}
+/*  PROFESSIONAL SKILLS SECTION *************************************************************/
+section:nth-child(4n) {
+	/* 	display: inline-block; */
+	/* 	display: flex; */
+	text-align: right;
+	/* 	flex-direction: column; */
+	/* 	justify-content: flex-end; */
+	font-size: 1.5rem;
+	width: 85%;
+	margin-left: 7%;
+	/* 	padding-right: 50px; */
+	margin-top: 24%;
+}
+section:nth-child(4n) table {
+	/* 	display: block; */
+	/* 	display: inline-block; */
+	/* 	display: flex; */
+	font-size: 1.4rrem;
+	color: #0cf200;
+
+	/* 	padding: 10px; */
+	width: 100%;
+	/* 	margin-left: 10%; */
+	/* 	width: 1000px; */
+	float: left;
+	/* 	justify-content: flex-start; */
+	/* 		padding-right: 0; */
+}
+
+section:nth-child(4n) table th,
+	/* section:nth-child(4n) table tr, */
+section:nth-child(4n) table td {
+	/* 	display: grid; */
+	/* 	display: inline-block; */
+	/* 	display: flex; */
+	/*   flex-wrap: wrap; */
+	/* flex-direction: column-reverse; */
+	/* justify-content: center; */
+	/* align-content: flex-end; */
+	/* 	align-items: flex-end; */
+	/* 	align-self: flex-end; */
+	/* flex-wrap: wrap-reverse; */
+	/* 	grid-template: 1fr 1fr/1fr 1fr 1fr 1fr; */
+	padding: 15px;
+	border: 2px solid white;
+	/*   width: 0%; */
+	text-align: left;
+	/* 	border-collapse: collapse; */
+	background-color: #333333;
+}
+
+/* CONTACT ME SECTION */
+
+section:nth-child(5n){
+	display: flex;
+	flex-direction: column;
+	margin-top: 17%;
+	background-color: #333333;
+	color: #00ff00;
+	justify-content: flex-start;
+	font-size: 2rem;
+	height: 1%;
+	width: 100%;
+}
+
+.form-wrapper {
+	/* display: block; */
+	background-color: #006400;
+	padding: 3%;
+	/* 	width: 2000px; */
+	margin: 4% 0 4% 0;
+	width: 100%;
+}
+label {
+	display: block;
+}
+
+button {
+	background-color: #00ff00;
+}
+
+/* FOOTER STYLE */
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+	/*! height: 0; */
+}
+/* * { */
+border: 1px solid red;
 }
