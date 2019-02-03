@@ -78,33 +78,21 @@ Font being applied
 The Heading
 ******************************************************/
 header {
-	display: flex;
 	display: block;
 	color: #00ff00;
 	background-color: #333333;
-	/* 	display: flex; */
-	font-size: 1.rem;
-	/* ! align-items: center; */
-	/* ! flex-direction: row; */
-	/* ! justify-content: space-between; */
+	font-size: 1rem;
 	padding-left: 20%;
 	padding-right: 20%;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	/* 	margin-right: 50%; */
 }
 
 header > .container {
-	/* 	display: inline-block; */
 	display: flex;
-	/* 	flex-direction: row; */
-	/* 	margin-bottom: 18px; */
-	/* 	margin-right: 9em; */
 	font-size: 1.4rem;
 	align-items: baseline;
-	/*   align-content: flex-start;  */
 	justify-content: space-between;
-	/* 	padding-right: 50%; */
 }
 /*****************************************************
 Welcome to my homepage image
@@ -122,7 +110,6 @@ Instructions and Janeway Box
 	margin-bottom: 4%;
 	border: thick solid black;
 	padding: 2.5em;
-	text
 }
 
 /* Janeway Picture */
@@ -154,7 +141,7 @@ img[alt*="captain picard"] {
 
 .about-me > .container > h2 {
 	color: white;
-	margin-top: 0%;
+	margin-top: 0;
 }
 
 .about-me > .container > p > span {
@@ -173,7 +160,7 @@ section:nth-child(4n) {
 	margin-top: 21em;
 }
 section:nth-child(4n) table {
-	font-size: 1.4rrem;
+	font-size: 1.4rem;
 	color: #0cf200;
 	width: 100%;
 	float: left;
