@@ -11,9 +11,9 @@ html, body {
 }
 
 .container {
-	/*! display: inline-block; */
+	/* display: inline-block; */
 	margin: 0 auto;
-	padding: 0 2rem;
+	/* padding: 0 2rem; */
 }
 
 .clearfix {
@@ -51,7 +51,7 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
- */
+*/
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *
@@ -82,8 +82,6 @@ header {
 	color: #00ff00;
 	background-color: #333333;
 	font-size: 1rem;
-	padding-left: 20%;
-	padding-right: 20%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
@@ -98,7 +96,7 @@ header > .container {
 Welcome to my homepage image
 ******************************************************/
 section:nth-child(2n) .container > img {
-	margin: 7.5% auto 2% 28%;
+	margin: 7.5% auto 2% 25%;
 }
 /*****************************************************
 Instructions and Janeway Box
@@ -106,7 +104,7 @@ Instructions and Janeway Box
 .instructions-wrapper {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 92.4%;
 	margin-bottom: 4%;
 	border: thick solid black;
 	padding: 2.5em;
@@ -195,7 +193,7 @@ section:nth-child(5n){
 	background-color: #006400;
 	padding: 3%;
 	margin: 4% 0 4% 0;
-	width: 100%;
+	width: 94%;
 	align-items: center;
 }
 label {
